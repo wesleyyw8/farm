@@ -1,0 +1,33 @@
+html {
+  font-size: 10px;
+  background: url('./../assets/farm.jpg') bottom center;
+  background-size: cover;
+}
+
+.animais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.animal-circulo {
+  border: .4rem solid black;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 20px;
+  padding: 12px 5px;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  transition: all .07s ease;
+  background-color: black;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.ativado {
+  transform: scale(1.1);
+  border-color: red;
+  box-shadow: 0 0 1rem #ffc600;
+}
